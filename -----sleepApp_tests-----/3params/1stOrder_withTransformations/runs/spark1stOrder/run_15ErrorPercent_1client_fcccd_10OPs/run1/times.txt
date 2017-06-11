@@ -1,0 +1,9 @@
+DoE: 0.003815 seconds
+
+
+DSE: 762.788714 seconds
+
+
+model_prediction: 156.661583 seconds
+
+

@@ -1,0 +1,25 @@
+times: Doe DSE model_prediction
+
+
+1 client: 800 microseconds + 105.5 seconds + 159.5 seconds = 265 seconds
+
+2 clients: 800 microseconds + 57 seconds + 155 seconds = 212 seconds
+
+3 clients: 400 microseconds + 35.4 seconds + 158.5 seconds = 194 seconds
+
+5 clients: 400 microseconds + 35 seconds + 157 seconds = 192 seconds
+
+
+
+full factorial: 2385 seconds
+
+
+
+DSE executionTime_serial: 73 seconds
+
+
+
+
+
+
+

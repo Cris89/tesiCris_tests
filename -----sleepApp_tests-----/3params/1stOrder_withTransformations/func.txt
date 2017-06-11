@@ -1,0 +1,33 @@
+std::vector<int> param1 = { 1, 50, 150, 300, 450, 700, 800 };
+std::vector<int> param2 = { 1, 50, 100, 150, 200 };
+std::vector<int> param3 = { 10, 80, 150, 220, 290, 360, 430, 500, 570, 640, 710, 780, 850 };
+
+
+
+float throughputA = 7.35;
+float throughputB = 38.1;
+float throughputC = 52.96;
+float throughputD = 0;
+
+float errorA = 0.015;
+float errorB = 0.033;
+float errorC = 0.028;
+float errorD = 0;
+
+
+
+float error_mean = 0.3;
+
+
+
+int sleepTime = round( throughputA * log(param1[i]) + throughputB * param2[j] + throughputC * sqrt(param3[k]) + throughputD );
+
+int sleepTime1 = sleepTime + round( sleepTime * 0.01 * error_mean );
+				
+double throughput1 = double(1000) / sleepTime1;
+
+...
+
+
+
+double error = double(1) / ( errorA * sqrt(param1[i]) + errorB * log(param2[j]) + errorC * log(param3[k]) + errorD );
