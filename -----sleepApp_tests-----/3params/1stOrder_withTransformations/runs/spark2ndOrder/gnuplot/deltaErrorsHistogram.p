@@ -61,7 +61,7 @@ set style histogram cluster gap 1 title offset 0,-1
 set tmargin 3
 set bmargin 7
 
-set yrange [0:35]
+set yrange [0:25]
 set ytics 5
 set mytics 2
 
