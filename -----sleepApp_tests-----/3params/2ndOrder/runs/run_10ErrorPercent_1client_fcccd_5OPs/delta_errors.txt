@@ -1,0 +1,57 @@
+0-1 %
+OPs: 162
+Percentage: 44.51 %
+
+
+1-2 %
+OPs: 170
+Percentage: 46.7 %
+
+
+2-3 %
+OPs: 25
+Percentage: 6.87 %
+
+
+3-5 %
+OPs: 6
+Percentage: 1.65 %
+
+
+5-10 %
+OPs: 1
+Percentage: 0.27 %
+
+
+10-15 %
+OPs: 0
+Percentage: 0.0 %
+
+
+15-20 %
+OPs: 0
+Percentage: 0.0 %
+
+
+20-25 %
+OPs: 0
+Percentage: 0.0 %
+
+
+25-50 %
+OPs: 0
+Percentage: 0.0 %
+
+
+>50 %
+OPs: 0
+Percentage: 0.0 %
+
+
+
+
+
+delta_error_mean: 0.00722
+
+
+delta_percentage_mean: 1.12 %

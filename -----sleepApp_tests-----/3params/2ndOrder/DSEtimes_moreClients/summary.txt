@@ -1,0 +1,14 @@
+times: Doe DSE model_prediction
+
+
+1 clients: ... microseconds + ... seconds + ... seconds = ... seconds
+
+2 clients: ... microseconds + ... seconds + ... seconds = ... seconds
+
+...
+
+
+
+
+
+DSE executionTime_serial: ... seconds
