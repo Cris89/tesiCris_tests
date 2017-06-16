@@ -1,13 +1,11 @@
 reset
 
-# set terminal pngcairo size 1920,1080 enhanced font 'Verdana,18'
-# set output "deltaErrorsSynth1histogram.png"
-set terminal pdfcairo size 16,9 enhanced font 'Verdana,25'
+set terminal pdfcairo size 16,11 enhanced font "Verdana,25"
 set output "deltaErrorRangesSynth1spark1.pdf"
 
 set xtics nomirror rotate by -45 font ",20"
 
-set key outside bottom center horizontal title "deltaError ranges [%]\n" font ",20"
+set key font ",25" reverse outside under title "deltaError ranges [%]\n"
 
 set grid ytics mytics lt 1 lc "#D3D3D3" dt 2
 show grid
@@ -24,7 +22,7 @@ set style line 10 linecolor "#333333"
 set style line 11 linecolor "#000000"
 
 set style data histogram
-set style histogram rowstacked title offset 0,0
+set style histogram rowstacked title offset 0,0 font ",25"
 set style fill solid border -1
 set boxwidth 0.75
 
