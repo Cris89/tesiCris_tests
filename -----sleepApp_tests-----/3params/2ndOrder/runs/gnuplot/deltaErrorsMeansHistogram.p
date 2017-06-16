@@ -3,7 +3,9 @@ reset
 # set terminal pngcairo size 1920,1080 enhanced font 'Verdana,18'
 # set output "deltaErrorsSynth1histogram.png"
 set terminal pdfcairo size 15,10 enhanced font 'Verdana,18'
-set output "deltaErrorsSynth1spark1histogram.pdf"
+set output "deltaErrorsSynth2Spark2histogram.pdf"
+
+set encoding utf8
 
 set multiplot layout 2,1
 
@@ -59,8 +61,8 @@ set style histogram cluster gap 1 title offset 0,-1
 set tmargin 3
 set bmargin 7
 
-set yrange [0:10]
-set ytics 1
+set yrange [0:16]
+set ytics 2
 set mytics 2
 
 set ylabel "% mean deltaError"
