@@ -13,7 +13,7 @@ show grid
 set style data histogram
 set style histogram cluster gap 1 title offset 0,0
 set style fill solid noborder
-set boxwidth 0.75
+set boxwidth 0.5
 
 set bmargin 7
 
