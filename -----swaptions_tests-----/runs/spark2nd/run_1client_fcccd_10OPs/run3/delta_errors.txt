@@ -1,0 +1,125 @@
+avg_error
+
+0-1 %
+OPs: 18
+Percentage: 22.5 %
+
+
+1-2 %
+OPs: 3
+Percentage: 3.75 %
+
+
+2-3 %
+OPs: 2
+Percentage: 2.5 %
+
+
+3-5 %
+OPs: 1
+Percentage: 1.25 %
+
+
+5-10 %
+OPs: 0
+Percentage: 0.0 %
+
+
+10-15 %
+OPs: 0
+Percentage: 0.0 %
+
+
+15-20 %
+OPs: 0
+Percentage: 0.0 %
+
+
+20-25 %
+OPs: 0
+Percentage: 0.0 %
+
+
+25-50 %
+OPs: 0
+Percentage: 0.0 %
+
+
+>50 %
+OPs: 56
+Percentage: 70.0 %
+
+
+
+
+
+delta_error_mean: 37.5828
+
+
+delta_percentage_mean: 69.2 %
+
+
+
+
+
+##################################################
+
+avg_throughput
+
+0-1 %
+OPs: 5
+Percentage: 6.25 %
+
+
+1-2 %
+OPs: 2
+Percentage: 2.5 %
+
+
+2-3 %
+OPs: 5
+Percentage: 6.25 %
+
+
+3-5 %
+OPs: 9
+Percentage: 11.25 %
+
+
+5-10 %
+OPs: 20
+Percentage: 25.0 %
+
+
+10-15 %
+OPs: 11
+Percentage: 13.75 %
+
+
+15-20 %
+OPs: 9
+Percentage: 11.25 %
+
+
+20-25 %
+OPs: 8
+Percentage: 10.0 %
+
+
+25-50 %
+OPs: 11
+Percentage: 13.75 %
+
+
+>50 %
+OPs: 0
+Percentage: 0.0 %
+
+
+
+
+
+delta_error_mean: 0.67363
+
+
+delta_percentage_mean: 12.6 %

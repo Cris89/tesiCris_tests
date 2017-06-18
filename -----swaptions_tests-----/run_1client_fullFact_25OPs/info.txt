@@ -1,0 +1,5 @@
+DoE: fullFact
+numOPs: 25
+numHostpids: 1
+
+
