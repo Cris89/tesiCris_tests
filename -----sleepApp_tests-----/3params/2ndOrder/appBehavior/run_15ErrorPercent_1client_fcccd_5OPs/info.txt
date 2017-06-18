@@ -6,4 +6,4 @@ DoE: fcccd
 numOPs: 5
 numHostpids: 1
 
-
+objective functions: throughput > 3, error < 1

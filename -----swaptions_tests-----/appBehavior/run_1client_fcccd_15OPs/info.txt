@@ -1,0 +1,6 @@
+DoE: fcccd
+numOPs: 15
+numHostpids: 1
+
+objective functions: error < 35, throughput > 3
+
