@@ -9,7 +9,7 @@ show grid
 unset key
 
 set xlabel "Time [ seconds ]"
-set ylabel "avg_throughput\n[ n° priced swaptions / seconds ]" noenhanced
+set ylabel "avg_throughput\n[ priced swaptions / seconds ]" noenhanced
 
 set xrange [:240]
 set yrange [:27]

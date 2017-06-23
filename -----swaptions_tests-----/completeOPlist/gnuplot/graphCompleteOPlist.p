@@ -18,7 +18,7 @@ set ytics  2
 set mytics 2
 
 set xlabel "avg_error" noenhanced
-set ylabel "avg_throughput" noenhanced
+set ylabel "avg_throughput\n[ priced swaptions / second ]" noenhanced
 
 show grid
 
