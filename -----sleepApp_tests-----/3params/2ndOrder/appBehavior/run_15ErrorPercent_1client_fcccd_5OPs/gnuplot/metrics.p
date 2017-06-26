@@ -1,4 +1,4 @@
-set terminal pdfcairo size 16,13 font "Verdana,30"
+set terminal pdfcairo size 16,15 font "Verdana,30"
 set output "appBehavior.pdf"
 
 set multiplot layout 2,1

@@ -1,6 +1,6 @@
 reset
 
-set terminal pdfcairo size 16,7 enhanced font 'Verdana,25'
+set terminal pdfcairo size 16,14 enhanced font 'Verdana,25'
 set output "deltaErrorMeansSynth1spark2.pdf"
 
 set xtics nomirror rotate by -45 font ",20"
