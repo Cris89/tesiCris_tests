@@ -1,11 +1,11 @@
 reset
 
-set terminal pdfcairo size 16,15 enhanced font 'Verdana,25'
+set terminal pdfcairo size 16,15 enhanced font 'Verdana,30'
 set output "fullFactorial_tesiCris.pdf"
 
-set xtics nomirror rotate by -45 font ",20"
+set xtics nomirror rotate by -45 font ",25"
 
-set key font ",25" under nobox title "Phases\n"
+set key font ",30" under nobox title "Phases\n"
 
 set grid ytics mytics lt 1 lc "#D3D3D3" dt 2
 show grid

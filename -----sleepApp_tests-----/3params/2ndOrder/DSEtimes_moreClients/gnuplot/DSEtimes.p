@@ -1,9 +1,9 @@
 reset
 
-set terminal pdfcairo size 16,10 enhanced font 'Verdana,25'
+set terminal pdfcairo size 16,15 enhanced font 'Verdana,30'
 set output "DSEtimes.pdf"
 
-set xtics nomirror rotate by -45 font ",20"
+set xtics nomirror rotate by -45 font ",25"
 
 unset key
 

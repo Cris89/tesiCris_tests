@@ -1,9 +1,9 @@
 reset
 
-set terminal pdfcairo size 16,14 enhanced font 'Verdana,25'
+set terminal pdfcairo size 16,9 enhanced font 'Verdana,30'
 set output "deltaErrorMeansSynth1spark2.pdf"
 
-set xtics nomirror rotate by -45 font ",20"
+set xtics nomirror rotate by -45 font ",25"
 
 unset key
 
@@ -11,7 +11,7 @@ set grid ytics mytics lt 1 lc "#D3D3D3" dt 2
 show grid
 
 set style data histogram
-set style histogram cluster gap 1 title offset 0,0
+set style histogram cluster gap 1 title offset 0,0 font ",25"
 set style fill solid noborder
 set boxwidth 0.75
 

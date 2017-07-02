@@ -1,9 +1,9 @@
 reset
 
-set terminal pdfcairo size 16,14 enhanced font 'Verdana,25'
+set terminal pdfcairo size 16,9 enhanced font 'Verdana,30'
 set output "deltaErrorMeansSwaptions15Spark2.pdf"
 
-set xtics nomirror rotate by -45 font ",20" noenhanced
+set xtics nomirror rotate by -45 font ",25" noenhanced
 
 unset key
 
@@ -17,7 +17,7 @@ set boxwidth 0.5
 
 set bmargin 7
 
-set yrange [0:100]
+set yrange [0:30]
 set ytics 10
 set mytics 2
 

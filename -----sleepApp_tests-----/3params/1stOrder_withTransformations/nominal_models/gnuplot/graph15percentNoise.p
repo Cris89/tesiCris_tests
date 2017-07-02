@@ -2,7 +2,7 @@ reset
 
 # set terminal pngcairo size 1920,1080 enhanced font 'Verdana,18'
 # set output "deltaErrorsSynth1histogram.png"
-set terminal pdfcairo size 16,9 enhanced font 'Verdana,30'
+set terminal pdfcairo size 16,14 enhanced font 'Verdana,30'
 set output "opGraphSynth1.pdf"
 
 unset key
