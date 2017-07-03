@@ -20,7 +20,7 @@ set mxtics 2
 set ytics 1
 set mytics 4
 
-set style line 1 lc "#999999" pt 7 ps 0.8
+set style line 1 lc "#000000" pt 7 ps 0.8
 set style line 2 lc "#CC0000" pt 7 ps 0.8
 set style line 3 lc "#14521F" pt 7 ps 0.8
 set style line 4 lc "#33CC4C" pt 7 ps 0.8
