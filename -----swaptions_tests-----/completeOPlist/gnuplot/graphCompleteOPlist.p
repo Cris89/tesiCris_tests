@@ -2,17 +2,19 @@ reset
 
 # set terminal pngcairo size 1920,1080 enhanced font 'Verdana,18'
 # set output "deltaErrorsSynth1histogram.png"
-set terminal pdfcairo size 16,14 enhanced font 'Verdana,30'
+set terminal pdfcairo size 16,14 enhanced font 'Verdana,55'
 set output "swaptionsOPgraph.pdf"
 
 unset key
 
 set grid xtics ytics mxtics mytics lt 1 lc "#D3D3D3" dt 2
 
-set style line 1 lc "#228B22" pt 7 ps 0.8
+set style line 1 lc "#228B22" pt 7 ps 1
 
-set xtics  10
-set mxtics 2
+set xrange[:220]
+
+set xtics  20
+#set mxtics 2
 
 set ytics  2
 set mytics 2

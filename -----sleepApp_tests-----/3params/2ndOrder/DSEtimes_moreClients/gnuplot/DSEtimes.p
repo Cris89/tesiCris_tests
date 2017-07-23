@@ -1,9 +1,9 @@
 reset
 
-set terminal pdfcairo size 16,15 enhanced font 'Verdana,30'
+set terminal pdfcairo size 16,15 enhanced font 'Verdana,55'
 set output "DSEtimes.pdf"
 
-set xtics nomirror rotate by -45 font ",25"
+set xtics nomirror rotate by -45
 
 unset key
 
@@ -18,11 +18,11 @@ set boxwidth 0.75
 set bmargin 7
 
 set yrange [0:1440]
-set ytics 60
+set ytics 120
 set mytics 2
 
-set ylabel "Time [seconds]"
+set ylabel "Time [ seconds ]"
 
-set style line 1 linecolor rgb "#CC3300"
+set style line 1 linecolor rgb "#CC0000"
 
 plot "data.dat" using 2:xtic(1) ls 1

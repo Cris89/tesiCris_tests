@@ -1,11 +1,12 @@
 reset
 
-set terminal pdfcairo size 16,15 enhanced font "Verdana,30"
+set terminal pdfcairo size 16,15 enhanced font "Verdana,55"
 set output "deltaErrorRangesSwaptions15Spark2.pdf"
 
-set xtics nomirror rotate by -45 font ",25" noenhanced
+set xtics nomirror rotate by -45 noenhanced
 
-set key font ",30" reverse outside under title "deltaError ranges [%]\n"
+#set key reverse outside under title "deltaError ranges [ % ]\n"
+unset key
 
 set grid ytics mytics lt 1 lc "#D3D3D3" dt 2
 show grid
@@ -19,7 +20,7 @@ set style line 10 linecolor "#FF6600"
 set style line 11 linecolor "#CC0000"
 
 set style data histogram
-set style histogram rowstacked title offset 0,0 font ",25"
+set style histogram rowstacked title offset 0,0
 set style fill solid border -1
 set boxwidth 0.4
 
@@ -29,6 +30,6 @@ set yrange [0:100]
 set ytics 10
 set mytics 2
 
-set ylabel "Configurations [%]"
+set ylabel "Configurations [ % ]"
 
 plot "metricsDeltaErrorsRanges.dat" using ($2 + $3 + $4 + $5):xtic(1) ls 2 title columnheader(2), for[ i = 6:11 ] "" using i ls i title columnheader(i)
